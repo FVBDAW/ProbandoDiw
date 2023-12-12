@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Deportes DIW</title>
+        <meta name="robots" content="index,follow">  
+        <meta name="desciption" content="Practica de html y css FVB">
+        <meta name="keywords" content="css, html, fvb, practica">
+        <meta name="author" content="Francisco Vicedo Blasco">
+        <meta name="copyright" content="2023, Francisco Vicedo Blasco">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/asd.jpg">
+        <meta name="apple-mobile-web-app-title" content="Deportes DIW">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="theme-color" content="#09f">
+        <link rel="icon" sizes="192x192" href="assets/images/asd.jpg">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" type="text/css" href="assets/css/styleContacto.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/impresion.css" media="print">
+    </head>
+    <body>
+        <div class="gridlayout"> 
+            <div class="contenedorfijo">
+            <header class="header header2">
+                <div class="imgLogo">
+                    <a href="probando.pdf" target="_blank" >
+                        <img title="Deportes DIW" alt="Logo de deportes DIW" src="assets/images/asd.jpg">
+                    </a>
+                </div>
+                <div class="titulo">
+                    <h1>Deportes DIW</h1>
+                </div>
+                
+            </header>
+            <nav class="nav nav-fijo">
+                <div class="menu-flex">
+                    <div class="boxNav"><a href="index.html"><p>Inicio</p></a></div>
+                    <div class="boxNav"><a href="servicios.html" target="_blank" rel="noreferrer"><p>Servicios</p></a></div>
+                    <div class="boxNav"><a href="contacto.html" target="_blank" rel="noreferrer"><p>Contacto</p></a></div>
+                </div>
+            </nav> 
+        </div>    
+            <section class="section">
+                
+            <div class="formulariodiv">
+                <h2>Formulario de contacto</h2>
+            <form method="post" action="/" class="formulario">
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <div>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" placeholder="Escribe tu Nombre" required autofocus pattern="[A-Za-z0-9]{1,30}">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="prueba@gmail.com" required>
+                    </div>
+                    <div>
+                        <label for="edad">Edad:</label>
+                        <input type="text" id="edad" name="edad" placeholder="18-99" required pattern="^(1[8-9]|[2-9][0-9])$">
+                    </div>
+                    <div>
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="685121451" pattern="[0-9]{9}" required>
+                    </div>
+                    <div>
+                        <label for="consulta">Consulta:</label>
+                        <textarea id="consulta" placeholder="Escribe tu consulta" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <label for="politicas">Aceptar politicas de privacidad</label>
+                        <input type="checkbox" id="politicas" required>
+                    </div>
+                    <div>
+                        <label for="cookies">Aceptar cookies</label>
+                        <input type="checkbox"  id="cookies" required>
+                    </div>
+                    <button type="submit">Enviar Formulario</button> 
+                </fieldset>
+            </form>
+            </div>
+
+            </section>
+            <aside class="aside">
+                <h2>Archivos</h2>
+                <div class="listado">
+                    <ul>
+                        <li><a href="#"><strong>Historial</strong></a> <i class="fas fa-history"></i></li>
+                        <li><a href="#"><strong>Enlaces Interesantes</strong> <i class="fas fa-link"></i></a></li> 
+                    </ul>
+                </div>
+            
+            </aside>      
+            <footer class="footer">
+                <div class="mapa">
+                    <iframe class="iframeMapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.6921936192916!2d-0.5156572234066095!3d38.332958179809836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6237b66cba9ec3%3A0xeebeba2996a50cf2!2sInstituto%20de%20secundaria%20IES%20Mare%20Nostrum!5e0!3m2!1ses!2ses!4v1697450480164!5m2!1ses!2ses"
+                     width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+               
+                <div class="politicas">
+                    <p><a href="#">Legal</a></p>
+                    <p><a href="#">Sobre Nosotros</a></p>
+                    <p><a href="#">Política de Cookies</a></p>
+                    <p><a href="#">Política de Privacidad</a>
+                    <p><strong>&copy; 2023 Deportes DIW</strong></p> 
+                </div>
+                <div class="logos">
+                    <div class="logoRS"><a href="https://twitter.com/" target="_blank" rel="noreferrer" ><img src="assets/images/twlogo.png" alt="Logo de Twitter"></a></div>
+                    <div class="logoRS"><a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><img src="assets/images/whalogo.png"  alt="Logo de Whatsapp"></a></div>
+                    <div class="logoRS"><a href="https://www.facebook.com/?locale=es_ES" target="_blank" rel="noreferrer"><img src="assets/images/facelogo.png" alt="Logo de Facebook"></a></div>
+                </div>
+            </footer>
+
+
+            <div class="whatsapp-icon">
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
+                    <img src="assets/images/whalogo.png" alt="Icono de WhatsApp">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
